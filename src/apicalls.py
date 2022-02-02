@@ -24,12 +24,12 @@ def getexternal():
     r = requests.get(url)"""
 
 def getpayload():
-    url = 'http://35.202.84.104:80/actors'
+    url = 'http://34.133.173.64:80/actors'
 
     r = requests.get(url)
 
 
 def postpayload():
-    url = 'http://35.202.84.104:80/films'
+    url = 'http://34.133.173.64:80/films'
 
     r = requests.post(url)
